@@ -29,39 +29,33 @@ public:
 class Solution {
 public:
 
-    vector<Node> nodes;
-
     Node* cloneGraph(Node* node) {
         if (node == nullptr) return nullptr;
 
-        nodes.clear();
-        nodes.assign(101, Node(0));
-
-        Node* root = &nodes[1];
-        root->val = 1;
+        vector<Node*> nodes(101, 0);
+        nodes[1] = new Node(1);
 
         queue<Node*> q; // This will have nodes from the actual graph
         q.push(node);
 
         while (!q.empty()) {
             Node* u = q.front();
+            Node* u_copy = nodes[u->val];
             q.pop();
-            Node* u_copy = &nodes[u->val];
 
             for (auto v : u->neighbors) {
                 int v_val = v->val;
 
-                if (nodes[v_val].val == 0) {
-                    nodes[v_val].val = v_val;
+                if (nodes[v_val] == 0) {
+                    nodes[v_val] = new Node(v_val);
                     q.push(v);
                 }
-                Node* v_copy = &nodes[v_val];
 
-                (u_copy->neighbors).push_back(v_copy);
+                (u_copy->neighbors).push_back(nodes[v_val]);
             }
         }
 
-        return root;
+        return nodes[1];
     }
 };
 
