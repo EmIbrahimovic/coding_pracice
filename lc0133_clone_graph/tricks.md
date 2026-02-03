@@ -4,7 +4,7 @@ strongly-connected:
 - "[[oop]]"
 ---
 
-# LeetCode 5. Longest Plaindromic Substring
+# LeetCode 5. Clone Graph
 
 ideja: ici bfs-om
 imati niz pointera na node-ove tako da znamo koji index je koji node
