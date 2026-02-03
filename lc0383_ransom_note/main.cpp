@@ -9,13 +9,12 @@ using namespace std;
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        int charsNote[27] = {0}, charsMag[27] = {0};
+        int charsMag[27] = {0};
 
         for (auto c : magazine) charsMag[c - 'a']++;
-        for (auto c : ransomNote) charsNote[c - 'a']++;
-
-        for (int i = 0; i < 26; i++) {
-            if (charsNote[i] > charsMag[i])
+        for (auto c : ransomNote) {
+            charsMag[c - 'a']--;
+            if (charsMag[c - 'a'] < 0)
                 return false;
         }
 
