@@ -91,9 +91,12 @@ $MdTemplate = @"
 ---
 strongly-connected:
 - "[[]]"
+tags:
+- problem
+favorite: False
 ---
 
-# $PlatformFull $ProblemNumber . $FunctionName
+# $PlatformFull $ProblemNumber. $FunctionName
 
 
 

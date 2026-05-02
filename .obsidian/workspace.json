@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python collections.md",
-                "mode": "source",
+                "file": "all_problems.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python collections"
+              "title": "all_problems"
             }
           }
         ]
@@ -185,18 +185,25 @@
   },
   "active": "5038984b86db0f3b",
   "lastOpenFiles": [
-    "SortedList.md",
-    "python collections.md",
+    "templates/tricks.md",
+    "templates/main.cpp",
+    "home.md",
     "all_problems.md",
-    "lc0005_longest_palindromic/tricks_longest_palindromic.md",
+    "lc0011_maxArea/tricks_maxArea.md",
     "vs-code-cpp-problems.md",
     "to-do.md",
+    "python collections.md",
+    "lc0278_badFirstVersion/tricks_badFirstVersion.md",
+    "lc0278_badFirstVersion/main.py",
+    "lc0278_badFirstVersion/main.cpp",
+    "lc0278_badFirstVersion",
+    "SortedList.md",
+    "lc0005_longest_palindromic/tricks_longest_palindromic.md",
     "ps_cheat_sheet.md",
     "lc0001_two_sum/tricks_two_sum.md",
     "lc0003_longest_no_repeat/tricks_longest_no_repeat.md",
     "lc0876_middleNode/tricks_middleNode.md",
     "lc0139_wordBreak/tricks_wordBreak.md",
-    "all_problems.base",
-    "home.md"
+    "all_problems.base"
   ]
 }

@@ -4,7 +4,9 @@ strongly-connected:
 - "[[priority queue]]"
 - "[[OrderedDict]]"
 - "[[linked list]]"
-tags: problem
+tags: 
+- problem
+- to-study
 ---
 
 # LeetCode 146 . lruCache
@@ -18,7 +20,8 @@ the way i did is:
 ## approach lessons
 
 python:
-* OrderedDict is a thing you should learn how to use
+* [[OrderedDict]] is a thing you should learn how to use!!
+    * the solution is 10 lines of code shorter! and simpler conceptually
 * C++ apparently there's a way to solve this with a linked list
 
 __study this problem__
