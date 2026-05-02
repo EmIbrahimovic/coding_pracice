@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[hash map simple]]"
+tags: problem
 ---
 
 # LeetCode 383. Ransom Note

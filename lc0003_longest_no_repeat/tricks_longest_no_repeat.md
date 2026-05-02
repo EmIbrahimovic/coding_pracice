@@ -1,5 +1,10 @@
 ---
-strongly-connected: [[hash map standard]], [[sliding window]], [[substrings]]
+strongly-connected: 
+- "[[hash map standard]]"
+- "[[sliding window]]"
+- "[[substrings]]"
+tags: 
+- problem
 ---
 
 # LeetCode 3. Longest Substring Without Repeating Characters

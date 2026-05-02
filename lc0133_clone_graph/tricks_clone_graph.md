@@ -2,6 +2,7 @@
 strongly-connected:
 - "[[simple graph]]"
 - "[[oop]]"
+tags: problem
 ---
 
 # LeetCode 5. Clone Graph

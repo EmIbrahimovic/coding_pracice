@@ -4,6 +4,7 @@ strongly-connected:
 - "[[substrings]]"
 - "[[adhoc]]"
 - "[[simple dp]]"
+tags: problem
 ---
 
 # LeetCode 5. Longest Plaindromic Substring

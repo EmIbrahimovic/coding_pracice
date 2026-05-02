@@ -3,6 +3,7 @@ strongly-connected:
 - "[[simple string]]"
 - "[[simple implementation]]"
 - "[[integer overflow]]"
+tags: problem
 ---
 
 # LeetCode 8. Custom atoi implementation

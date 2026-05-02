@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[tortoise and hare]]"
+tags: problem
 ---
 
 # LeetCode 141. hasCycle

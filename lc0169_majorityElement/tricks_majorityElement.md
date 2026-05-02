@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[streaming algorithms]]"
+tags: problem
 ---
 
 # LeetCode 169. majorityElement

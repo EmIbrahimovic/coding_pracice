@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[bfs simple]]"
+tags: problem
 ---
 
 # LeetCode 994. rottingOranges

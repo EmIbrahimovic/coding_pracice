@@ -1,9 +1,10 @@
 ---
 strongly-connected:
 - "[[]]"
+tags: problem
 ---
 
-# UnrecognizedPlatform 2. testIng
+# LeetCode 20. validParentheses
 
 
 

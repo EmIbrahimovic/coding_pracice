@@ -2,6 +2,7 @@
 strongly-connected:
 - "[[binary search]]"
 - "[[two pointers]]
+tags: problem
 ---
 
 # LeetCode 11. maxArea

@@ -2,6 +2,7 @@
 strongly-connected:
 - "[[dp simple]]"
 - "[[string search]]"
+tags: problem
 ---
 
 # LeetCode 139. wordBreak

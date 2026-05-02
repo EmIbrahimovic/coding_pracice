@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[standard array]]"
+tags: problem
 ---
 
 # LeetCode 15. threeSum

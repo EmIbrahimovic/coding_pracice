@@ -1,4 +1,4 @@
-# Probelm
+# Problem
 
 Make a cpp file, 
 
@@ -12,7 +12,7 @@ click on run and debug tab
 > first step select GDB LLDB
 > second step select g++
 
-errors show up where there shouldn tbe
+errors show up where there shouldnt be
 
 after setting up tasks, cpp c properties, launch i was getting this debug console
 > ERROR: Unable to start debugging. Unexpected GDB output from command "-exec-run". During startup program exited with code 0xc0000139.
@@ -39,7 +39,7 @@ eventually after getting the 000000139 msg
 
 1. To specify function definitions, create a `utils.h` file
     * Do ifndef and define and endif to prevent the file from being compiled multiple times or smthn
-2. To specify the implementations, creata `utils.cpp` file, include the h file and implement the funcitons
+2. To specify the implementations, create a `utils.cpp` file, include the h file and implement the functions
 3. In the file where you wanna use them, include `utils.h` and not cpp
 4. To compile, if they're in different folders, go to `tasks.json` and add compiler flag `-I.` which will tell it to look for header files in the current directory (the one that vscode has opened rn) or `-I..` to tell it to look in the parent directory
     * NOTE: `-I.` doesn't work, use `-I..`

@@ -1,0 +1,33 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("problem")
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: list
+    name: Numbered List
+    filters:
+      and:
+        - file.tags.contains("problem")
+    order:
+      - file.name
+      - file.links
+    markers: number
+    indentProperties: true
+  - type: table
+    name: Numbered Table
+    filters:
+      and:
+        - file.tags.contains("problem")
+    order:
+      - file.name
+      - file.mtime
+      - strongly-connected
+    sort:
+      - property: file.mtime
+        direction: DESC
+    markers: number
+    indentProperties: true

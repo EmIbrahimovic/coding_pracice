@@ -1,6 +1,7 @@
 ---
 strongly-connected:
 - "[[linked list]]"
+tags: problem
 ---
 
 # LeetCode 876. middleNode

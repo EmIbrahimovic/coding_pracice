@@ -1,5 +1,8 @@
 ---
-tags: hash-map-standard
+tags:
+  - hash-map-standard
+  - problem
+approach: "[[tricks_two_sum#approach lessons]]"
 ---
 
 # LeetCode 1. Two Sum
