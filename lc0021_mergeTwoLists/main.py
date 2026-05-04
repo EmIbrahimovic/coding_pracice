@@ -1,10 +1,6 @@
 import typing
 from collections import OrderedDict
-
-class ListNode(object):
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from utils import *
 
 class Solution:
     def mergeTwoLists(self, list1, list2):
@@ -69,14 +65,6 @@ class Solution:
 
         return dummy.next
 
-
-
-def printll(ll):
-    print("Printing the linked list: ")
-    while ll is not None:
-        print(ll.val)
-        ll = ll.next
-
 if __name__ == "__main__":
     sol = Solution()
 
@@ -92,5 +80,5 @@ if __name__ == "__main__":
     for t, test in enumerate(tests):
         print(f"======= Test {t} ========")
         answer = sol.mergeTwoLists(*test)
-        printll(answer)
+        print_ll(answer)
 

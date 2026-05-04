@@ -31,7 +31,15 @@ $MdFile = "$FolderName\tricks_$FunctionName.md"
 
 $PyTemplate = @"
 import typing
-from collections import OrderedDict
+
+# shenanegans to import utils
+# from pathlib import Path
+# import sys
+# current_file = Path(__file__).resolve()
+# parent_directory = current_file.parent.parent
+# sys.path.append(str(parent_directory))
+from utils import *
+
 
 class Solution:
     def $FunctionName(self, inputs) -> $ReturnType :
