@@ -3,7 +3,8 @@ param(
     [string]$FunctionName,
     [string]$ReturnType,
     [string]$Platform="lc",
-    [string]$PLanguage="all"
+    [string]$PLanguage="all",
+    [bool]$BetterCpp=0
 )
 
 $ProblemNumberStr = $ProblemNumber.ToString("D4")
@@ -11,6 +12,8 @@ $ProblemNumberStr = $ProblemNumber.ToString("D4")
 $PlatformFull = "UnrecognizedPlatform"
 if ($Platform -eq "lc") {
     $PlatformFull = "LeetCode"
+} elseif ($Platform -eq "spoj") {
+    $PlatformFull = "SPOJ"
 } else {
     Write-Host "Warning: Platform choice $Platform unrecognized" -ForegroundColor Red
 }
@@ -27,6 +30,7 @@ if (!(Test-Path $FolderName)) {
 
 $PyFile = "$FolderName\main.py"
 $CppFile = "$FolderName\main.cpp"
+$BetterCppFile = "$FolderName\better.cpp"
 $MdFile = "$FolderName\tricks_$FunctionName.md"
 
 $PyTemplate = @"
@@ -117,6 +121,29 @@ favorite: False
 
 "@
 
+$BetterCppTemplate = @"
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <map>
+#include <queue>
+
+using namespace std;
+
+int main() {
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+
+        
+    }
+
+    return 0;
+}
+"@
+
 
 if (($PLanguage -eq "cpp" -or $PLanguage -eq "all") -and !(Test-Path $CppFile)) {
     $CppTemplate | Out-File $CppFile
@@ -137,4 +164,11 @@ if (!(Test-Path $MdFile)) {
     Write-Host "tricks_$FunctionName.md created" -ForegroundColor Cyan
 } else {
     Write-Host "tricks_$FunctionName.md already exists" -ForegroundColor Gray
+}
+
+if (($BetterCpp -eq 1) -and !(Test-Path $BetterCppFile)) {
+    $BetterCppTemplate | Out-File $BetterCppFile
+    Write-Host "better.cpp created" -ForegroundColor Cyan
+} else {
+    Write-Host "BetterCpp not selected or better.cpp already exists" -ForegroundColor Gray
 }

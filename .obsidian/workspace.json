@@ -11,10 +11,14 @@
             "id": "783d4b3e597fb16f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "cpp/data structs.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "data structs"
             }
           }
         ]
@@ -179,33 +183,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "783d4b3e597fb16f",
+  "active": "38535e899675a8cf",
   "lastOpenFiles": [
-    "python/heapq.md",
-    "python",
-    "lc0023_mergeKLists/tricks_mergeKLists.md",
+    "spoj0000_testprob/better.cpp",
+    "spoj0000_testprob/main.cpp",
+    "cpp0000_testprob/tricks_testprob.md",
+    "cpp0000_testprob",
+    "spoj0000_testprob/tricks_testprob.md",
+    "spoj0000_testprob",
+    "templates/better.cpp",
+    "spoj_busyman/better.exe",
+    "spoj_busyman/better.cpp",
+    "spoj_busyman/main.exe",
+    "lc0278_firstBadVersion/tricks_firstBadVersion.md",
+    "cpp/data structs.md",
+    "cpp",
+    "spoj_busyman/tricks_busyman.md",
+    "spoj_busyman/main.cpp",
+    "spoj_busyman",
+    "spoj0278_busyman/tricks_busyman.md",
+    "python/python.md",
+    "lc0278_badFirstVersion/tricks_firstBadVersion.md",
     "python/python collections.md",
-    "__pycache__/utils.cpython-312.pyc",
-    "__pycache__",
+    "python/heapq.md",
+    "lc0023_mergeKLists/tricks_mergeKLists.md",
     "vs-code-py-problems.md",
     "all_problems.md",
     "templates/tricks.md",
-    "templates/main.cpp",
     "home.md",
     "lc0011_maxArea/tricks_maxArea.md",
     "vs-code-cpp-problems.md",
     "to-do.md",
-    "lc0278_badFirstVersion/tricks_badFirstVersion.md",
-    "lc0278_badFirstVersion/main.py",
-    "lc0278_badFirstVersion/main.cpp",
-    "lc0278_badFirstVersion",
     "SortedList.md",
     "lc0005_longest_palindromic/tricks_longest_palindromic.md",
     "ps_cheat_sheet.md",
     "lc0001_two_sum/tricks_two_sum.md",
     "lc0003_longest_no_repeat/tricks_longest_no_repeat.md",
     "lc0876_middleNode/tricks_middleNode.md",
-    "lc0139_wordBreak/tricks_wordBreak.md",
-    "all_problems.base"
+    "lc0139_wordBreak/tricks_wordBreak.md"
   ]
 }
