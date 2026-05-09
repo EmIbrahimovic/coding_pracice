@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/data structs.md",
+                "file": "cses0000_movieFestivalII/tricks_movieFestivalII.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data structs"
+              "title": "tricks_movieFestivalII"
             }
           }
         ]
@@ -183,28 +183,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "38535e899675a8cf",
+  "active": "783d4b3e597fb16f",
   "lastOpenFiles": [
+    "lc0981_timeMap/tricks_timeMap.md",
+    "lc0981_timeMap/main.py",
+    "lc0981_timeMap/main.cpp",
+    "lc0981_timeMap",
+    "python/python collections.md",
+    "cses0000_movieFestivalII/better.exe",
+    "cses0000_movieFestivalII/better.cpp",
+    "cses0000_movieFestivalII/main.py",
+    "cses0000_movieFestivalII/main.cpp",
+    "cses0000_movieFestivalII/tricks_movieFestivalII.md",
+    "cses0000_movieFestivalII",
+    "cpp/data structs.md",
     "spoj0000_testprob/better.cpp",
     "spoj0000_testprob/main.cpp",
     "cpp0000_testprob/tricks_testprob.md",
-    "cpp0000_testprob",
     "spoj0000_testprob/tricks_testprob.md",
-    "spoj0000_testprob",
-    "templates/better.cpp",
-    "spoj_busyman/better.exe",
-    "spoj_busyman/better.cpp",
-    "spoj_busyman/main.exe",
     "lc0278_firstBadVersion/tricks_firstBadVersion.md",
-    "cpp/data structs.md",
-    "cpp",
     "spoj_busyman/tricks_busyman.md",
-    "spoj_busyman/main.cpp",
-    "spoj_busyman",
     "spoj0278_busyman/tricks_busyman.md",
     "python/python.md",
     "lc0278_badFirstVersion/tricks_firstBadVersion.md",
-    "python/python collections.md",
     "python/heapq.md",
     "lc0023_mergeKLists/tricks_mergeKLists.md",
     "vs-code-py-problems.md",
@@ -219,7 +220,6 @@
     "ps_cheat_sheet.md",
     "lc0001_two_sum/tricks_two_sum.md",
     "lc0003_longest_no_repeat/tricks_longest_no_repeat.md",
-    "lc0876_middleNode/tricks_middleNode.md",
-    "lc0139_wordBreak/tricks_wordBreak.md"
+    "lc0876_middleNode/tricks_middleNode.md"
   ]
 }

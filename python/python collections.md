@@ -2,6 +2,16 @@
 strongly-connected:
   - "[[python]]"
 ---
+# Counter
+
+https://realpython.com/python-counter/
+```python
+from collections import Counter
+
+s = "aabcd"
+cnts = Counter(s)
+# Counter({'a': 2, 'b': 1, 'c': 1, 'd': 1})
+```
 
 # SortedList
 
