@@ -1,5 +1,6 @@
 from typing import List
 import queue
+from math import inf
 # shenanegans to import utils
 # from pathlib import Path
 # import sys
@@ -10,7 +11,31 @@ import queue
 
 class Solution:
 
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+    def updateMatrix(self, mat):
+
+        m, n = len(mat), len(mat[0])
+        for r in range(m):
+            for c in range(n):
+                if mat[r][c] == 0:
+                    continue
+                mat[r][c] = min(
+                    inf if c == 0 else mat[r][c-1],
+                    inf if r == 0 else mat[r-1][c]
+                ) + 1
+
+        for r in range(m-1, -1, -1):
+            for c in range(n-1, -1, -1):
+                if mat[r][c] == 0:
+                    continue
+                mat[r][c] = min(
+                    mat[r][c],
+                    inf if c == n-1 else mat[r][c+1] + 1,
+                    inf if r == m-1 else mat[r+1][c] + 1
+                )
+
+        return mat
+
+    def updateMatrix2(self, mat: List[List[int]]) -> List[List[int]]:
         n = len(mat)
         m = len(mat[0])
         def valid(x, y):
