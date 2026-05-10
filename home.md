@@ -11,6 +11,7 @@
 
 ## C++ Comments
 ---
+[[cpp]]
 ### What's the benefit of doing it in C++?
 - Not forgetting C++
 - Dealing with pointers in CP
@@ -23,7 +24,7 @@
 
 ## Python Comments
 ---
-
+[[python]]
 ### What's the benefit of doing it in Python?
 - Learning faster Python data structures
 - Use Python day-to-day, how to have little scripts that run fast

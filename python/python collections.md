@@ -16,6 +16,7 @@ cnts = Counter(s)
 # SortedList
 
 [[SortedList]]
+[sorted list documentation](https://grantjenks.com/docs/sortedcontainers/introduction.html#sorted-list)
 
 # SortedDict
 
