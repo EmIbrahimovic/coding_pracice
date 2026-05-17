@@ -1,4 +1,8 @@
 
+# Lessons
+
+![[lessons]]
+
 # TO-DO
 ![[to-do]]
 

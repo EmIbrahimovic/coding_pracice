@@ -80,7 +80,7 @@ MD_FILE="$FOLDER_NAME/tricks_${FUNCTION_NAME}.md"
 
 # Python template
 read -r -d '' PY_TEMPLATE << EOF || true
-import typing
+from typing import List
 
 # shenanegans to import utils
 # from pathlib import Path
@@ -88,7 +88,7 @@ import typing
 # current_file = Path(__file__).resolve()
 # parent_directory = current_file.parent.parent
 # sys.path.append(str(parent_directory))
-from utils import *
+# from utils import *
 
 
 class Solution:

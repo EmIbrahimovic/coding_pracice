@@ -12,29 +12,42 @@ from typing import List
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         n = len(candidates)
-        memo = [[None for _ in range(target + 1)] for _ in range(n)]
 
         def _combinationSum(i, t):
-            if memo[i][t] is not None:
-                return memo[i][t]
             if t == 0:
                 return [[]]
             if i < 0:
                 return []
-
-            memo[i][t] = []
-            if t == 0:
-                memo[i][t].append([])
-            else:
-                for k in range(t // candidates[i] + 1):
-                    memo[i][t].extend(
-                        combo + [candidates[i]] * k 
-                        for combo in _combinationSum(i - 1, t - k * candidates[i])
-                    )
             
-            print(i, t)
-            print(memo[i][t])
-            return memo[i][t]
+            answer = []
+            for k in range(t // candidates[i] + 1):
+                answer.extend(
+                    combo + [candidates[i]] * k 
+                    for combo in _combinationSum(i - 1, t - k * candidates[i])
+                )
+            
+            return answer
+
+        return _combinationSum(n - 1, target)
+    
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        n = len(candidates)
+
+        def _combinationSum(i, t):
+            if t < 0:
+                return []
+            if t == 0:
+                return [[]]
+            if i < 0:
+                return []
+            
+            answer = []
+            answer.extend(
+                [candidates[i]] + combo for combo in _combinationSum(i, t - candidates[i])
+            )
+            answer.extend(_combinationSum(i - 1, t))
+            
+            return answer
 
         return _combinationSum(n - 1, target)
 
