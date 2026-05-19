@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lessons.md",
+                "file": "lc0297_serialize/tricks_serialize.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lessons"
+              "title": "tricks_serialize"
             }
           }
         ],
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e93bc505e54b982e",
@@ -226,9 +227,11 @@
   },
   "active": "357b07830a4f348b",
   "lastOpenFiles": [
+    "lc0383_ransom_note/tricks_ransom_note.md",
+    "lc0297_serialize/tricks_serialize.md",
+    "lessons.md",
     "home.md",
     "to-do.md",
-    "lessons.md",
     "lc0042_trappingRainwater/tricks_trappingRainwater.md",
     "lc0042_trappingRainwater/tricks_trap.md",
     "lc0042_trappingRainwater/main.py",
@@ -259,8 +262,6 @@
     "spoj_busyman/tricks_busyman.md",
     "spoj0278_busyman/tricks_busyman.md",
     "lc0278_badFirstVersion/tricks_firstBadVersion.md",
-    "python/heapq.md",
-    "vs-code-py-problems.md",
-    "templates/tricks.md"
+    "python/heapq.md"
   ]
 }
