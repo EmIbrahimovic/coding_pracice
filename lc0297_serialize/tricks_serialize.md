@@ -1,6 +1,7 @@
 ---
 strongly-connected:
-- "[[]]"
+- "[[bfs]]"
+- "[[tree]]"
 tags:
 - problem
 favorite: False
