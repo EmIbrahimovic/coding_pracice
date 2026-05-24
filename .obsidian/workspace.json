@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "783d4b3e597fb16f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "python"
-            }
-          },
-          {
             "id": "01b10009c93dd9e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "home.md",
+                "file": "lc0053_maxSubArray/tricks_maxSubArray.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "home"
-            }
-          },
-          {
-            "id": "357b07830a4f348b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lc0297_serialize/tricks_serialize.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tricks_serialize"
+              "title": "tricks_maxSubArray"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,12 +196,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "357b07830a4f348b",
+  "active": "01b10009c93dd9e7",
   "lastOpenFiles": [
-    "lc0383_ransom_note/tricks_ransom_note.md",
-    "lc0297_serialize/tricks_serialize.md",
-    "lessons.md",
+    "lc0054_sprialMatrix/tricks_sprialMatrix.md",
+    "lc0054_sprialMatrix/main.py",
+    "lc0054_sprialMatrix/main.cpp",
+    "lc0054_sprialMatrix",
     "home.md",
+    "lc0297_serialize/tricks_serialize.md",
+    "lc0383_ransom_note/tricks_ransom_note.md",
+    "lessons.md",
     "to-do.md",
     "lc0042_trappingRainwater/tricks_trappingRainwater.md",
     "lc0042_trappingRainwater/tricks_trap.md",
@@ -244,13 +219,10 @@
     "all_problems.md",
     "lc0033_searchInRotated/tricks_searchInRotated.md",
     "lc0033_searchInRotated/main.py",
-    "lc0033_searchInRotated/main.cpp",
-    "lc0033_searchInRotated",
     "lc0023_mergeKLists/tricks_mergeKLists.md",
     "python/python collections.md",
     "lc0542_01Matrix/tricks_01Matrix.md",
     "lc0542_01Matrix/tricks_updateMatrix.md",
-    "lc0542_01Matrix/main.py",
     "lc0542_updateMatrix/tricks_updateMatrix.md",
     "python/python.md",
     "lc0981_timeMap/tricks_timeMap.md",
@@ -261,7 +233,6 @@
     "lc0278_firstBadVersion/tricks_firstBadVersion.md",
     "spoj_busyman/tricks_busyman.md",
     "spoj0278_busyman/tricks_busyman.md",
-    "lc0278_badFirstVersion/tricks_firstBadVersion.md",
-    "python/heapq.md"
+    "lc0278_badFirstVersion/tricks_firstBadVersion.md"
   ]
 }
