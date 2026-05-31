@@ -31,22 +31,17 @@ class Solution:
             if parent[u] != -1:
                 parent_free.remove(parent[u])
 
-            pref_height = [math.inf] * len(parent_free)
-            suf_height = [math.inf] * len(parent_free)
-            for i, v in enumerate(parent_free):
-                pref_height[i] = height[v] if i == 0 else max(height[v], pref_height[i - 1])
-            for i in range(len(parent_free) - 1, -1, -1):
-                v = parent_free[i]
-                suf_height[i] = height[v] if i == len(parent_free) - 1 else max(height[v], suf_height[i + 1])
+            child_heights = sorted([(height[c], c) for c in parent_free], reverse=True)
+            top1, top2 = child_heights[0] if child_heights else None, child_heights[1] if len(child_heights) > 1 else None
 
-            for i, v in enumerate(parent_free):
-                if i == 0:
-                    height_excl_child[u][v] = suf_height[i + 1] if i + 1 <= len(parent_free) - 1 else -2
-                elif i == len(parent_free) - 1:
-                    height_excl_child[u][v] = pref_height[i - 1] if i - 1 >= 0 else -2
+            for v in parent_free:
+                if top1 and top1[1] != v:
+                    height_excl_child[u][v] = top1[0]
+                elif top2:
+                    height_excl_child[u][v] = top2[0]
                 else:
-                    height_excl_child[u][v] = max(suf_height[i + 1] if i + 1 <= len(parent_free) - 1 else -2, pref_height[i - 1] if i - 1 >= 0 else -2)
-                
+                    height_excl_child[u][v] = -1  # no other children
+
 
         parent[0] = -1
         get_heights(0)
