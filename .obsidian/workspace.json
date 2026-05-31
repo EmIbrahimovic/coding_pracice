@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e93bc505e54b982e",
@@ -198,6 +197,11 @@
   },
   "active": "01b10009c93dd9e7",
   "lastOpenFiles": [
+    "lc0310_findMinHeightTrees/test.txt",
+    "lc0310_findMinHeightTrees/main.py",
+    "lc0310_findMinHeightTrees/tricks_findMinHeightTrees.md",
+    "lc0310_findMinHeightTrees/main.cpp",
+    "lc0310_findMinHeightTrees",
     "lc0054_sprialMatrix/tricks_sprialMatrix.md",
     "lc0054_sprialMatrix/main.py",
     "lc0054_sprialMatrix/main.cpp",
@@ -214,11 +218,8 @@
     "lc0042_trappingRainwater",
     "lc0042_trap/tricks_trap.md",
     "lc0042_trap/main.py",
-    "lc0042_trap/main.cpp",
-    "lc0042_trap",
     "all_problems.md",
     "lc0033_searchInRotated/tricks_searchInRotated.md",
-    "lc0033_searchInRotated/main.py",
     "lc0023_mergeKLists/tricks_mergeKLists.md",
     "python/python collections.md",
     "lc0542_01Matrix/tricks_01Matrix.md",
@@ -231,8 +232,6 @@
     "cpp0000_testprob/tricks_testprob.md",
     "spoj0000_testprob/tricks_testprob.md",
     "lc0278_firstBadVersion/tricks_firstBadVersion.md",
-    "spoj_busyman/tricks_busyman.md",
-    "spoj0278_busyman/tricks_busyman.md",
-    "lc0278_badFirstVersion/tricks_firstBadVersion.md"
+    "spoj_busyman/tricks_busyman.md"
   ]
 }
