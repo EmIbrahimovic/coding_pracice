@@ -27,12 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "python/python collections.md",
+=======
+                "file": "all_problems.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "python collections"
+=======
+              "title": "all_problems"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -89,7 +97,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,9 +208,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "01b10009c93dd9e7",
+  "active": "6d58929a4721e998",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "lc0295_findMedian/main.py~",
+=======
+    "lc0310_findMinHeightTrees/tricks_findMinHeightTrees.md",
+    "all_problems.md",
+    "lc0056_mergeIntervals/tricks_mergeIntervals.md",
+    "all_problems.base",
+    "lc0053_maxSubArray/tricks_maxSubArray.md",
+    "lc0056_mergeIntervals/main.py",
+    "lc0056_mergeIntervals/main.cpp",
+    "lc0056_mergeIntervals",
+    "lc0310_findMinHeightTrees/test.txt",
+    "lc0310_findMinHeightTrees/main.py",
+    "lc0310_findMinHeightTrees/main.cpp",
+    "lc0310_findMinHeightTrees",
+    "lc0054_sprialMatrix/tricks_sprialMatrix.md",
+    "lc0054_sprialMatrix/main.py",
+    "lc0054_sprialMatrix/main.cpp",
+    "home.md",
+    "lc0297_serialize/tricks_serialize.md",
+    "lc0383_ransom_note/tricks_ransom_note.md",
+    "lessons.md",
+    "to-do.md",
+    "lc0042_trappingRainwater/tricks_trappingRainwater.md",
+    "lc0042_trappingRainwater/tricks_trap.md",
+    "lc0042_trap/tricks_trap.md",
+    "lc0033_searchInRotated/tricks_searchInRotated.md",
+    "lc0023_mergeKLists/tricks_mergeKLists.md",
+    "python/python collections.md",
+>>>>>>> Stashed changes
     "lc0542_01Matrix/tricks_01Matrix.md",
     "lc0542_01Matrix/tricks_updateMatrix.md",
     "lc0542_01Matrix/main.py",
@@ -223,6 +261,7 @@
     "python/python collections.md",
     "cpp/data structs.md",
     "cpp0000_testprob/tricks_testprob.md",
+<<<<<<< Updated upstream
     "spoj0000_testprob/tricks_testprob.md",
     "lc0278_firstBadVersion/tricks_firstBadVersion.md",
     "spoj_busyman/tricks_busyman.md",
@@ -237,5 +276,8 @@
     "to-do.md",
     "SortedList.md",
     "lc0005_longest_palindromic/tricks_longest_palindromic.md"
+=======
+    "spoj0000_testprob/tricks_testprob.md"
+>>>>>>> Stashed changes
   ]
 }

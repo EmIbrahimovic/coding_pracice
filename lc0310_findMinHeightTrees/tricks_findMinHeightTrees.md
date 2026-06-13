@@ -1,6 +1,8 @@
 ---
 strongly-connected:
-- "[[]]"
+- "[[bfs]]"
+- "[[leaf peeling]]"
+- "[[tree dp]]"
 tags:
 - problem
 favorite: False
@@ -29,7 +31,7 @@ losa stvar: trebalo mi je 2 sata
 
 implementation comments:
 > The function computes maxdist[u] but also maintains the running answer via nonlocal. It's cleaner to separate the two.
-> 
+> calculating the max excluding a certain node is better done by remembering the top 2 max guyd ans checking if the current v is the max guy
 
 ## actual solution
 
