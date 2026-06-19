@@ -13,38 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/python.md",
+                "file": "lc0322_coinChange/tricks_coinChange.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python"
+              "title": "tricks_coinChange"
             }
           },
           {
-            "id": "01b10009c93dd9e7",
+            "id": "1e3ee6b81cc9c3b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "python/python collections.md",
-=======
                 "file": "all_problems.md",
->>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "python collections"
-=======
               "title": "all_problems"
->>>>>>> Stashed changes
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,8 +179,19 @@
               "icon": "lucide-list",
               "title": "Outline of all_problems"
             }
+          },
+          {
+            "id": "a549c49c95f0760c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -205,79 +206,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6d58929a4721e998",
+  "active": "a549c49c95f0760c",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "lc0295_findMedian/main.py~",
-=======
-    "lc0310_findMinHeightTrees/tricks_findMinHeightTrees.md",
-    "all_problems.md",
+    "lc0200_numIslands/tricks_numIslands.md",
+    "lc0200_numIslands/main.py",
+    "lc0200_numIslands/main.cpp",
+    "lc0200_numIslands",
+    "lc0057_insertInterval/tricks_insertInterval.md",
+    "lc0057_insertInterval/main.py",
+    "lc0057_insertInterval/main.cpp",
+    "lc0057_insertInterval",
     "lc0056_mergeIntervals/tricks_mergeIntervals.md",
-    "all_problems.base",
-    "lc0053_maxSubArray/tricks_maxSubArray.md",
     "lc0056_mergeIntervals/main.py",
     "lc0056_mergeIntervals/main.cpp",
     "lc0056_mergeIntervals",
-    "lc0310_findMinHeightTrees/test.txt",
-    "lc0310_findMinHeightTrees/main.py",
-    "lc0310_findMinHeightTrees/main.cpp",
-    "lc0310_findMinHeightTrees",
-    "lc0054_sprialMatrix/tricks_sprialMatrix.md",
-    "lc0054_sprialMatrix/main.py",
-    "lc0054_sprialMatrix/main.cpp",
-    "home.md",
-    "lc0297_serialize/tricks_serialize.md",
-    "lc0383_ransom_note/tricks_ransom_note.md",
-    "lessons.md",
-    "to-do.md",
-    "lc0042_trappingRainwater/tricks_trappingRainwater.md",
-    "lc0042_trappingRainwater/tricks_trap.md",
-    "lc0042_trap/tricks_trap.md",
-    "lc0033_searchInRotated/tricks_searchInRotated.md",
-    "lc0023_mergeKLists/tricks_mergeKLists.md",
-    "python/python collections.md",
->>>>>>> Stashed changes
-    "lc0542_01Matrix/tricks_01Matrix.md",
-    "lc0542_01Matrix/tricks_updateMatrix.md",
-    "lc0542_01Matrix/main.py",
-    "lc0542_01Matrix/main.cpp",
-    "lc0542_01Matrix",
-    "lc0542_updateMatrix/tricks_updateMatrix.md",
-    "lc0542_updateMatrix/main.py",
-    "lc0542_updateMatrix/main.cpp",
-    "lc0542_updateMatrix",
-    "python/python.md",
-    "home.md",
-    "lc0981_timeMap/tricks_timeMap.md",
     "all_problems.md",
-    "all_problems.base",
-    "cses0000_movieFestivalII/tricks_movieFestivalII.md",
-    "lc0981_timeMap/main.py",
-    "lc0981_timeMap/main.cpp",
-    "lc0981_timeMap",
+    "lc0322_coinChange/tricks_coinChange.md",
+    "lc0322_coinChange/main.py~",
+    "lc0542_01Matrix/tricks_01Matrix.md",
+    "lc0062_uniquePaths/tricks_uniquePaths.md",
+    "lc0981_timeMap/tricks_timeMap.md",
+    "lc0033_searchInRotated/tricks_searchInRotated.md",
+    "lc0039_combinationSum/tricks_combinationSum.md",
+    "python/python.md",
+    "lc0438_findAnagrams/tricks_findAnagrams.md",
     "python/python collections.md",
+    "lc0542_01Matrix/tricks_updateMatrix.md",
+    "lc0542_updateMatrix/tricks_updateMatrix.md",
+    "home.md",
+    "cses0000_movieFestivalII/tricks_movieFestivalII.md",
     "cpp/data structs.md",
     "cpp0000_testprob/tricks_testprob.md",
-<<<<<<< Updated upstream
     "spoj0000_testprob/tricks_testprob.md",
     "lc0278_firstBadVersion/tricks_firstBadVersion.md",
     "spoj_busyman/tricks_busyman.md",
     "spoj0278_busyman/tricks_busyman.md",
     "lc0278_badFirstVersion/tricks_firstBadVersion.md",
     "python/heapq.md",
-    "lc0023_mergeKLists/tricks_mergeKLists.md",
-    "vs-code-py-problems.md",
-    "templates/tricks.md",
-    "lc0011_maxArea/tricks_maxArea.md",
-    "vs-code-cpp-problems.md",
-    "to-do.md",
-    "SortedList.md",
-    "lc0005_longest_palindromic/tricks_longest_palindromic.md"
-=======
-    "spoj0000_testprob/tricks_testprob.md"
->>>>>>> Stashed changes
+    "lc0023_mergeKLists/tricks_mergeKLists.md"
   ]
 }
