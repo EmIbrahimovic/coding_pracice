@@ -10,53 +10,44 @@ from typing import List
 
 
 class Solution:
-    def sortColors(self, inputs) -> None :
-
+    def sortColors(self, nums: List[int]) -> None:
         c = [0, 0, 0]
-        for cc in inputs:
-            c[cc] += 1
-        
-        ind = [0, c[0], c[0] + c[1]]
-        lim = [c[0], c[0] + c[1], c[0] + c[1] + c[2]]
-        while True:
-            print(ind)
-            print(inputs)
-            
-            cond = True
-            for i in range(3):
-                while ind[i] < lim[i] - 1 and inputs[ind[i]] == i:
-                    ind[i] += 1
-                if ind[i] != lim[i] - 1:
-                    cond = False
-            
-            if cond:
-                break
+        for n in nums:
+            c[n] += 1
 
-            swapt = False
-            # swap anything
-            for i in range(3):
-                for j in range(3):
-                    if i == j:
-                        continue
-                    if inputs[ind[i]] == j and inputs[ind[j]] == i:
-                        inputs[ind[i]] = i
-                        inputs[ind[j]] = j
-                        swapt = True
-                        break
-                if swapt:
-                    break
+        b = [0, c[0], c[0] + c[1]]
+        e = [c[0], c[0] + c[1], c[0] + c[1] + c[2]]
+        i = b
+        def finished():
+            nonlocal i, e
+            return all(ej == ij for ej, ij in zip(e, i))
+
+        while not finished():
+            print(nums)
+            print(i)
+            cands = [(nums[i[j]], i[j]) for j in range(3) if i[j] < e[j]]
+            min_eligible = min(cands)
+            print(min_eligible)
+            
+            nums[min_eligible[1]] = nums[i[min_eligible[0]]]
+            nums[i[min_eligible[0]]] = min_eligible[0]
+            
+            for j in range(3):
+                while i[j] < e[j] and nums[i[j]] == j:
+                    i[j] += 1
+
 
 if __name__ == "__main__":
     sol = Solution()
 
     tests = [
-        ([0, 0, 0, 1, 1, 1, 2, 2, 2],),
-        ([0, 1, 0, 1, 0, 1, 2, 2, 2],),
-        ([2, 1, 0, 1, 1, 0, 2, 1, 2],),
+        ([2,0,2,1,1,0], ),
+        ([2,0,1],),
+        ([],),
     ]
+
 
     for t, test in enumerate(tests):
         print(f"======= Test {t} ========")
         answer = sol.sortColors(*test)
         print(answer)
-
