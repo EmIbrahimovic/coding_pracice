@@ -7,8 +7,8 @@ using namespace std;
 
 class Solution {
 public:
-    None sortColors(/* input needed */) {
-        None result;
+    bool wordSearch(/* input needed */) {
+        bool result;
 
         return result;
     }
@@ -23,11 +23,9 @@ int main() {
 
     // Use utils if complex output
     for (auto test : tests) {
-        cout << sol.sortColors(test) << endl;
+        cout << sol.wordSearch(test) << endl;
     }
 
     return 0;
 }
-<<<<<<< HEAD
 
-=======

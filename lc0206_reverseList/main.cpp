@@ -7,8 +7,8 @@ using namespace std;
 
 class Solution {
 public:
-    None sortColors(/* input needed */) {
-        None result;
+    Optional[ListNode] reverseList(/* input needed */) {
+        Optional[ListNode] result;
 
         return result;
     }
@@ -23,11 +23,9 @@ int main() {
 
     // Use utils if complex output
     for (auto test : tests) {
-        cout << sol.sortColors(test) << endl;
+        cout << sol.reverseList(test) << endl;
     }
 
     return 0;
 }
-<<<<<<< HEAD
 
-=======

@@ -13,6 +13,31 @@ cnts = Counter(s)
 # Counter({'a': 2, 'b': 1, 'c': 1, 'd': 1})
 ```
 
+```python
+from collections import Counter
+
+c = Counter("mississippi")
+print(c)                 # counts each character
+print(c.most_common(2))  # top 2
+c.update("abc")
+c.subtract("is")
+print(c.total())
+```
+
+- `elements()`: yields each element repeated by its count, ignoring zero and negative counts.[](https://docs.python.org/3/library/collections.html)
+- `subtract(iterable_or_mapping)`: subtracts counts; results can go to zero or negative.[](https://docs.python.org/3/library/collections.html)
+
+# deque
+https://docs.python.org/3/library/collections.html
+
+```python
+from collections import deque
+```
+
+```python
+d[-1], d[0] # to peek
+```
+
 # SortedList
 
 [[SortedList]]

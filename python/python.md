@@ -1,5 +1,12 @@
 ![[python collections]]
 
+
+## itertools
+
+### cartesian product
+```python
+from itertools import product
+```
 ## bisect
 [https://docs.python.org/3/library/bisect.html](https://docs.python.org/3/library/bisect.html)
 

@@ -7,8 +7,8 @@ using namespace std;
 
 class Solution {
 public:
-    None sortColors(/* input needed */) {
-        None result;
+    List[List[int]] subsets(/* input needed */) {
+        List[List[int]] result;
 
         return result;
     }
@@ -23,11 +23,9 @@ int main() {
 
     // Use utils if complex output
     for (auto test : tests) {
-        cout << sol.sortColors(test) << endl;
+        cout << sol.subsets(test) << endl;
     }
 
     return 0;
 }
-<<<<<<< HEAD
 
-=======
