@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/python.md",
+                "file": "lc0219_containsNearbyDuplicate/tricks_containsNearbyDuplicate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python"
+              "title": "tricks_containsNearbyDuplicate"
             }
           }
         ],
@@ -201,12 +201,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "7819f837210d4517",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -227,6 +237,13 @@
   },
   "active": "2ee6c2d0e9f8e3e2",
   "lastOpenFiles": [
+    "lc0220_containsNearbyAlmostDuplicate/tricks_containsNearbyAlmostDuplicate.md",
+    "lc0220_containsNearbyAlmostDuplicate/main.py",
+    "lc0220_containsNearbyAlmostDuplicate/main.cpp",
+    "lc0220_containsNearbyAlmostDuplicate",
+    "python/python collections.md",
+    "python stdlib.md",
+    "python/python.md",
     "lc0207_courseSchedule/tricks_courseSchedule.md",
     "lc0207_courseSchedule/main.py",
     "lc0207_courseSchedule/main.cpp",
@@ -238,12 +255,7 @@
     "lc0076_minWindowSubstring/tricks_minWindowSubstring.md",
     "lc0079_wordSearch/tricks_wordSearch.md",
     "lc0079_wordSearch/main.py",
-    "lc0079_wordSearch/main.cpp",
-    "lc0079_wordSearch",
     "lc0078_subsets/tricks_subsets.md",
-    "lc0078_subsets/main.py",
-    "python/python collections.md",
-    "python/python.md",
     "lc0322_coinChange/tricks_coinChange.md",
     "cpp/data structs.md",
     "lc0075_sortColors/tricks_sortColors.md",
@@ -260,8 +272,6 @@
     "lc0542_01Matrix/tricks_updateMatrix.md",
     "lc0542_updateMatrix/tricks_updateMatrix.md",
     "home.md",
-    "cses0000_movieFestivalII/tricks_movieFestivalII.md",
-    "cpp0000_testprob/tricks_testprob.md",
-    "spoj0000_testprob/tricks_testprob.md"
+    "cses0000_movieFestivalII/tricks_movieFestivalII.md"
   ]
 }

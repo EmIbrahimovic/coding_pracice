@@ -2,6 +2,7 @@
 strongly-connected:
   - "[[python]]"
 ---
+![[python stdlib]]
 # Counter
 
 https://realpython.com/python-counter/
