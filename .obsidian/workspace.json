@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "763f7cc81181dcce",
+        "id": "bc06ac8ab32ab9f9",
         "type": "tabs",
         "children": [
           {
-            "id": "783d4b3e597fb16f",
+            "id": "795e6c03b7d05452",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lc0322_coinChange/tricks_coinChange.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "tricks_coinChange"
-            }
-          },
-          {
-            "id": "1e3ee6b81cc9c3b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "python"
-            }
-          },
-          {
-            "id": "2ee6c2d0e9f8e3e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "python"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,9 +192,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "2ee6c2d0e9f8e3e2",
+  "active": "795e6c03b7d05452",
   "lastOpenFiles": [
     "lc0207_courseSchedule/tricks_courseSchedule.md",
+    "toposort.md",
+    "lc0141_hasCycle/tricks_hasCycle.md",
+    "lc0322_coinChange/tricks_coinChange.md",
+    "python/python.md",
     "lc0207_courseSchedule/main.py",
     "lc0207_courseSchedule/main.cpp",
     "lc0207_courseSchedule",
@@ -243,8 +214,6 @@
     "lc0078_subsets/tricks_subsets.md",
     "lc0078_subsets/main.py",
     "python/python collections.md",
-    "python/python.md",
-    "lc0322_coinChange/tricks_coinChange.md",
     "cpp/data structs.md",
     "lc0075_sortColors/tricks_sortColors.md",
     "all_problems.md",
@@ -260,8 +229,6 @@
     "lc0542_01Matrix/tricks_updateMatrix.md",
     "lc0542_updateMatrix/tricks_updateMatrix.md",
     "home.md",
-    "cses0000_movieFestivalII/tricks_movieFestivalII.md",
-    "cpp0000_testprob/tricks_testprob.md",
-    "spoj0000_testprob/tricks_testprob.md"
+    "cses0000_movieFestivalII/tricks_movieFestivalII.md"
   ]
 }

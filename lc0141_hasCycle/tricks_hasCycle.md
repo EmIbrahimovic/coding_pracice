@@ -1,6 +1,7 @@
 ---
 strongly-connected:
-- "[[tortoise and hare]]"
+  - "[[tortoise and hare]]"
+  - "[[cycle detection]]"
 tags: problem
 ---
 
