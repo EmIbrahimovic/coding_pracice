@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/emira/Projects/coding_pracice/cf-contest/round1105/c'
+relocations:
+  - { offset: 0x2D55E, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xD3137, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x2E181, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_c.cpp, symObjAddr: 0xB4, symBinAddr: 0x10000074C, symSize: 0x14 }
+  - { offset: 0x2E199, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x78, symBinAddr: 0x100000710, symSize: 0x3C }
+  - { offset: 0x2E1B8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000006A0, symSize: 0x70 }
+  - { offset: 0x335B6, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x38FF0, symBinAddr: 0x100008001, symSize: 0x0 }
+  - { offset: 0x33847, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_utils.cpp, symObjAddr: 0x54C, symBinAddr: 0x100000AD4, symSize: 0x14 }
+  - { offset: 0x3385F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x510, symBinAddr: 0x100000A98, symSize: 0x3C }
+  - { offset: 0x33904, size: 0x8, addend: 0x0, symName: __ZNKSt6vectorIiSaIiEE3endEv, symObjAddr: 0x308, symBinAddr: 0x100000A68, symSize: 0x30 }
+  - { offset: 0x33958, size: 0x8, addend: 0x0, symName: __ZNKSt6vectorIiSaIiEE5beginEv, symObjAddr: 0x2DC, symBinAddr: 0x100000A3C, symSize: 0x2C }
+  - { offset: 0x339E6, size: 0x8, addend: 0x0, symName: __ZNSt6vectorIiSaIiEE3endEv, symObjAddr: 0x2AC, symBinAddr: 0x100000A0C, symSize: 0x30 }
+  - { offset: 0x33A3A, size: 0x8, addend: 0x0, symName: __ZNKSt6vectorIiSaIiEE5emptyEv, symObjAddr: 0x254, symBinAddr: 0x1000009B4, symSize: 0x58 }
+  - { offset: 0x33AD5, size: 0x8, addend: 0x0, symName: __ZNSt6vectorIiSaIiEE4backEv, symObjAddr: 0x1B8, symBinAddr: 0x100000918, symSize: 0x9C }
+  - { offset: 0x33B8E, size: 0x8, addend: 0x0, symName: __ZNSt6vectorIiSaIiEEixEm, symObjAddr: 0x134, symBinAddr: 0x100000894, symSize: 0x84 }
+  - { offset: 0x33BE4, size: 0x8, addend: 0x0, symName: __ZNKSt6vectorIiSaIiEE4sizeEv, symObjAddr: 0xFC, symBinAddr: 0x10000085C, symSize: 0x38 }
+  - { offset: 0x33C22, size: 0x8, addend: 0x0, symName: __Z12print_vectorRSt6vectorIiSaIiEE, symObjAddr: 0x0, symBinAddr: 0x100000760, symSize: 0xFC }
+...
