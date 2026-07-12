@@ -2,18 +2,18 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
             "args": [
-                "-I..", // Include flag
+                "-I${workspaceFolder}", // Include flag
                 "-fdiagnostics-color=always",
                 "-Wall", // Warnings
-                "-static",
+                "-std=c++17",
                 "-g", // Debug symbols
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "..\\utils.cpp"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "${workspaceFolder}/utils.cpp"
             ],
             "options": {
                 "cwd": "${fileDirname}"
