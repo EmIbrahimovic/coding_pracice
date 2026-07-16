@@ -4,7 +4,7 @@ strongly-connected:
   - "[[sorting]]"
   - "[[adhoc]]"
   - "[[in-place sorting]]"
-tags:
+tagsit
   - problem
 favorite: true
 ---

@@ -9,11 +9,11 @@
     "flashcardCardOrder": "DueFirstRandom",
     "flashcardDeckOrder": "PrevDeckComplete_Sequential",
     "convertClozePatternsToInputs": false,
-    "convertHighlightsToClozes": false,
+    "convertHighlightsToClozes": true,
     "convertBoldTextToClozes": false,
-    "convertCurlyBracketsToClozes": true,
+    "convertCurlyBracketsToClozes": false,
     "clozePatterns": [
-      "{{[123;;]answer[;;hint]}}"
+      "==[123;;]answer[;;hint]=="
     ],
     "singleLineCardSeparator": "::",
     "singleLineReversedCardSeparator": ":::",
@@ -42,8 +42,8 @@
     "initiallyExpandAllSubdecksInTree": true,
     "showContextInCards": true,
     "showIntervalInReviewButtons": true,
-    "flashcardHeightPercentage": 59.93555316863588,
-    "flashcardWidthPercentage": 59.97434252726106,
+    "flashcardHeightPercentage": 60,
+    "flashcardWidthPercentage": 60,
     "flashcardHeightPercentageMobile": 100,
     "flashcardWidthPercentageMobile": 100,
     "flashcardAgainText": "Again",
@@ -71,7 +71,7 @@
     "showParserDebugMessages": false,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY"
   },
-  "buryDate": "2026-07-11",
+  "buryDate": "2026-07-16",
   "buryList": [],
   "historyDeck": null
 }

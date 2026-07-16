@@ -11,13 +11,44 @@
             "id": "f1da4af0d14cfb63",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "lc0322_coinChange/tricks_coinChange.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "tricks_coinChange"
+            }
+          },
+          {
+            "id": "1e3ee6b81cc9c3b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lc0084_largestRectangleArea/tricks_largestRectangleArea.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "tricks_largestRectangleArea"
+            }
+          },
+          {
+            "id": "417dbeeb3b3a21a3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/accountsMerge.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "accountsMerge.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,25 +206,46 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "random-note:Open random note": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f1da4af0d14cfb63",
+  "active": "a549c49c95f0760c",
   "lastOpenFiles": [
-    "Excalidraw/icpc women.excalidraw.md",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64/e.yml",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64",
-    "cf-contest/e.dSYM/Contents/Resources/DWARF/e",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations",
-    "cf-contest/e.dSYM/Contents/Resources/DWARF",
-    "cf-contest/e.dSYM/Contents/Resources",
-    "cf-contest/e.dSYM/Contents/Info.plist",
-    "cf-contest/e.dSYM/Contents",
-    "cf-contest/e.dSYM",
-    "cf-contest/e",
-    "cf-contest/icpc women/icpc women.md",
-    "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
-    "all_problems.md"
+    "lc0236_lowestCommonAncestorBinaryTree/main.py~",
+    "lc0236_lowestCommonAncestorBinaryTree/tricks_lowestCommonAncestorBinaryTree.md",
+    "lc0236_lowestCommonAncestorBinaryTree/main.py",
+    "lc0236_lowestCommonAncestorBinaryTree/main.cpp",
+    "lc0236_lowestCommonAncestorBinaryTree",
+    "lc0235_lowestCommonAncestorBST/main.py~",
+    "lc0084_largestRectangleArea/main.py~",
+    "lc0721_accountsMerge/tricks_accountsMerge.md",
+    "lc0084_largestRectangleArea/tricks_largestRectangleArea.md",
+    "lc0084_largestRectangleArea/main.py",
+    "lc0084_largestRectangleArea/main.cpp",
+    "lc0084_largestRectangleArea",
+    "lc0721_accountsMerge/main.py~",
+    "Excalidraw/accountsMerge.excalidraw.md",
+    "Excalidraw",
+    "lc0208_trie/tricks_trie.md",
+    "lc0075_sortColors/tricks_sortColors.md",
+    "lc1235_weightedJobScheduling/tricks_weightedJobScheduling.md",
+    "lc0207_courseSchedule/tricks_courseSchedule.md",
+    "lc0206_reverseList/tricks_reverseList.md",
+    "lc0079_wordSearch/tricks_wordSearch.md",
+    "lc0078_subsets/tricks_subsets.md",
+    "lc0076_minWindowSubstring/tricks_minWindowSubstring.md",
+    "all_problems.md",
+    "lc0322_coinChange/tricks_coinChange.md",
+    "lc0200_numIslands/tricks_numIslands.md",
+    "lc0057_insertInterval/tricks_insertInterval.md",
+    "lc0056_mergeIntervals/tricks_mergeIntervals.md",
+    "lc0542_01Matrix/tricks_01Matrix.md",
+    "lc0062_uniquePaths/tricks_uniquePaths.md",
+    "lc0981_timeMap/tricks_timeMap.md",
+    "lc0033_searchInRotated/tricks_searchInRotated.md",
+    "lc0039_combinationSum/tricks_combinationSum.md",
+    "python/python.md",
+    "lc0438_findAnagrams/tricks_findAnagrams.md",
+    "python/python collections.md"
   ]
 }
