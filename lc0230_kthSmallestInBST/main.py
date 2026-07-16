@@ -39,4 +39,3 @@ if __name__ == "__main__":
         print(f"======= Test {t} ========")
         answer = sol.kthSmallestInBST(*test)
         print(answer)
-

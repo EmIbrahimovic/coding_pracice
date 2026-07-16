@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "6ac9092428206d9b",
+    "id": "883dfb4f57606e51",
     "type": "split",
     "children": [
       {
-        "id": "25b347ffa0e3e61b",
+        "id": "87a43a8462e618b5",
         "type": "tabs",
         "children": [
           {
-            "id": "d38a7530d9b888b0",
+            "id": "f1da4af0d14cfb63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lc0542_01Matrix/tricks_01Matrix.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "tricks_01Matrix"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9dd7b30b3a5926be",
+    "id": "8398664af4c8a04b",
     "type": "split",
     "children": [
       {
-        "id": "93cb2b38f21b94c3",
+        "id": "346f7d48601203d2",
         "type": "tabs",
         "children": [
           {
-            "id": "aa1c5838d0343189",
+            "id": "ec590b6891698929",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "520c313f792d6ea3",
+            "id": "77db9b58e698133e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "7ca2f0d9f9b2f769",
+            "id": "b6e2922d7e1c0dc0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "eb4fcab09fe02d9a",
+    "id": "536659c1e47fe715",
     "type": "split",
     "children": [
       {
-        "id": "fe7d38ec1996a1ee",
+        "id": "4aa7340e611f370a",
         "type": "tabs",
         "children": [
           {
-            "id": "0b512c045268ddb5",
+            "id": "fc84624afd3c463f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "morris traversal.md",
+                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for morris traversal"
+              "title": "Backlinks for tricks_kthSmallestInBST"
             }
           },
           {
-            "id": "36b298739f53e61f",
+            "id": "6cb66bef442f8e6d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "morris traversal.md",
+                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from morris traversal"
+              "title": "Outgoing links from tricks_kthSmallestInBST"
             }
           },
           {
-            "id": "ef1ffa218e47aa45",
+            "id": "e33726f652d44eec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,36 +133,22 @@
             }
           },
           {
-            "id": "0c5eb2067bc6001a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "d4495f9071ae3b00",
+            "id": "769892d4f0c919b5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "morris traversal.md",
+                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of morris traversal"
+              "title": "Outline of tricks_kthSmallestInBST"
             }
           },
           {
-            "id": "ccf4336fa895cfc6",
+            "id": "79581e0a4769e747",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -176,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -192,18 +174,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "d38a7530d9b888b0",
+  "active": "f1da4af0d14cfb63",
   "lastOpenFiles": [
-    "all_problems.md",
-    "all_problems.base",
-    "morris traversal.md",
-    "lc0005_longest_palindromic/tricks_longest_palindromic.md",
-    "lc0105_buildTreeInPreOrder/tricks_buildTreeInPreOrder.md",
-    "lc0105_buildTreeInPreOrder/main.py",
-    "lc0105_buildTreeInPreOrder/main.cpp",
-    "lc0105_buildTreeInPreOrder"
+    "Excalidraw/icpc women.excalidraw.md",
+    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64/e.yml",
+    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64",
+    "cf-contest/e.dSYM/Contents/Resources/DWARF/e",
+    "cf-contest/e.dSYM/Contents/Resources/Relocations",
+    "cf-contest/e.dSYM/Contents/Resources/DWARF",
+    "cf-contest/e.dSYM/Contents/Resources",
+    "cf-contest/e.dSYM/Contents/Info.plist",
+    "cf-contest/e.dSYM/Contents",
+    "cf-contest/e.dSYM",
+    "cf-contest/e",
+    "cf-contest/icpc women/icpc women.md",
+    "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
+    "all_problems.md"
   ]
 }

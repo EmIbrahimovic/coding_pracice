@@ -22,10 +22,6 @@ int main() {
     };
 
     // Use utils if complex output
-    for (auto test : tests) {
         cout << sol.kthSmallestInBST(test) << endl;
-    }
-
     return 0;
 }
-
