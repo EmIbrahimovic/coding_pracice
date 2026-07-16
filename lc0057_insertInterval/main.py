@@ -11,21 +11,35 @@ from bisect import *
 
 
 class Solution:
-    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]] :
-        # firstConflict = bisect_left(intervals, newInterval[0], key=lambda a: a[0])
-        # lastConflict = bisect_left(intervals, newInterval[1], key=lambda a: a[0])
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        ns, ne = newInterval
+        
+        allPts = []
+        for s, e in intervals:
+            allPts.append((s, 'S'))
+            allPts.append((e, 'e'))
+        
+        start_idx = bisect_left(allPts, (ns, 'S'))
+        allPts.insert(start_idx, (ns, 'S'))
+        end_idx = bisect_right(allPts, (ne, 'e'))
+        allPts.insert(end_idx, (ne, 'e'))
 
-        # if firstConflict == len(intervals):
-        #     intervals.append(newInterval)
-        #     return intervals
-        # elif firstConflict == 0:
-        #     # something
-        # else:
-        #     firstConflict -= 1
+        # print(allPts)
 
-        # intersectsFirst = intervals[firstConflict][1] >= newInterval[0]
-        # intersectsLast = intervals[lastConflict][]
+        newIntervals = []
+        starts = []
+        for i, t in allPts:
+            if t == 'S':
+                starts.append(i)
+            else:
+                last_start = starts[-1]
+                starts.pop()
+                if not starts:
+                    newIntervals.append([last_start, i])
 
+        return newIntervals
+
+    def insert1(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]] :
         newIntervals = []
         s, e = newInterval
         startMerged = -1

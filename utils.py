@@ -6,6 +6,9 @@ class TreeNode(object):
         self.left = left
         self.right = right
     
+    def __str__(self):
+        return f"{__class__.__name__}({self.val}, {self.left}, {self.right})"
+    
 
 class ListNode(object):
     def __init__(self, val=0, next=None):
