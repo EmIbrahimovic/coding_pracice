@@ -1,37 +1,56 @@
 {
   "main": {
-    "id": "883dfb4f57606e51",
+    "id": "b10211c452915b9e",
     "type": "split",
     "children": [
       {
-        "id": "87a43a8462e618b5",
+        "id": "763f7cc81181dcce",
         "type": "tabs",
         "children": [
           {
-            "id": "f1da4af0d14cfb63",
+            "id": "783d4b3e597fb16f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "lc0322_coinChange/tricks_coinChange.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "tricks_coinChange"
+            }
+          },
+          {
+            "id": "417dbeeb3b3a21a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lc0621_taskScheduler/tricks_taskScheduler.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tricks_taskScheduler"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8398664af4c8a04b",
+    "id": "1c4acd907d868497",
     "type": "split",
     "children": [
       {
-        "id": "346f7d48601203d2",
+        "id": "8a54510759720a5b",
         "type": "tabs",
         "children": [
           {
-            "id": "ec590b6891698929",
+            "id": "38535e899675a8cf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +63,7 @@
             }
           },
           {
-            "id": "77db9b58e698133e",
+            "id": "6d58929a4721e998",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +80,7 @@
             }
           },
           {
-            "id": "b6e2922d7e1c0dc0",
+            "id": "06bf70d368f98a73",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "536659c1e47fe715",
+    "id": "e93bc505e54b982e",
     "type": "split",
     "children": [
       {
-        "id": "4aa7340e611f370a",
+        "id": "ba4439805bd03f69",
         "type": "tabs",
         "children": [
           {
-            "id": "fc84624afd3c463f",
+            "id": "e3707e714ad9ca68",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
+                "file": "all_problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tricks_kthSmallestInBST"
+              "title": "Backlinks for all_problems"
             }
           },
           {
-            "id": "6cb66bef442f8e6d",
+            "id": "771b969dde452c24",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
+                "file": "all_problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tricks_kthSmallestInBST"
+              "title": "Outgoing links from all_problems"
             }
           },
           {
-            "id": "e33726f652d44eec",
+            "id": "2b86b66f227690f1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,22 +152,36 @@
             }
           },
           {
-            "id": "769892d4f0c919b5",
+            "id": "a49f96beabe8d150",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "e7885bfe9838a1eb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
+                "file": "all_problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tricks_kthSmallestInBST"
+              "title": "Outline of all_problems"
             }
           },
           {
-            "id": "79581e0a4769e747",
+            "id": "a549c49c95f0760c",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -158,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -167,33 +200,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "random-note:Open random note": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f1da4af0d14cfb63",
+  "active": "417dbeeb3b3a21a3",
   "lastOpenFiles": [
-    "Excalidraw/icpc women.excalidraw.md",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64/e.yml",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations/aarch64",
-    "cf-contest/e.dSYM/Contents/Resources/DWARF/e",
-    "cf-contest/e.dSYM/Contents/Resources/Relocations",
-    "cf-contest/e.dSYM/Contents/Resources/DWARF",
-    "cf-contest/e.dSYM/Contents/Resources",
-    "cf-contest/e.dSYM/Contents/Info.plist",
-    "cf-contest/e.dSYM/Contents",
-    "cf-contest/e.dSYM",
-    "cf-contest/e",
-    "cf-contest/icpc women/icpc women.md",
+    "lc0621_taskScheduler/main.py~",
+    "lc0621_taskScheduler/tricks_taskScheduler.md",
+    "lc0621_taskScheduler/main.py",
+    "lc0621_taskScheduler/main.cpp",
+    "lc0621_taskScheduler",
+    "toposort.md",
+    "python stdlib.md",
+    "morris traversal.md",
+    "lc0876_middleNode/main.dSYM/Contents/Resources/Relocations/aarch64/main.yml",
+    "lc0876_middleNode/main.dSYM/Contents/Resources/Relocations/aarch64",
+    "lc0876_middleNode/main.dSYM/Contents/Resources/DWARF/main",
+    "lc0876_middleNode/main.dSYM/Contents/Resources/Relocations",
+    "lc0876_middleNode/main.dSYM/Contents/Resources/DWARF",
+    "lc0876_middleNode/main.dSYM/Contents/Resources",
+    "lc0876_middleNode/main.dSYM/Contents/Info.plist",
+    "lc0733_floodFill/tricks_floodFill.md",
+    "lc0232_implementQueueWithStacks/tricks_implementQueueWithStacks.md",
     "lc0230_kthSmallestInBST/tricks_kthSmallestInBST.md",
-    "all_problems.md"
+    "lc0226_invertTree/tricks_invertTree.md",
+    "lc0224_calculate/tricks_calculate.md",
+    "lc0220_containsNearbyAlmostDuplicate/tricks_containsNearbyAlmostDuplicate.md",
+    "lc0219_containsNearbyDuplicate/tricks_containsNearbyDuplicate.md",
+    "lc0217_containsDuplicate/tricks_containsDuplicate.md",
+    "lc0105_buildTreeInPreOrder/tricks_buildTreeInPreOrder.md",
+    "lc0102_levelOrder/tricks_levelOrder.md",
+    "lc0098_isValidBST/tricks_isValidBST.md",
+    "cpp - casting .size().md",
+    "cf-contest/round1105/round 1105.md",
+    "cf-contest/round1105/cf_round_1105.excalidraw.md",
+    "cf-contest/icpc women/icpc women.md",
+    "lc0084_largestRectangleArea/tricks_largestRectangleArea.md",
+    "lc0236_lowestCommonAncestorBinaryTree/tricks_lowestCommonAncestorBinaryTree.md",
+    "lc0721_accountsMerge/tricks_accountsMerge.md",
+    "Excalidraw/accountsMerge.excalidraw.md",
+    "lc0208_trie/tricks_trie.md",
+    "lc0075_sortColors/tricks_sortColors.md"
   ]
 }

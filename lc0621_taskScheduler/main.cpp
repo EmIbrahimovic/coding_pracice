@@ -16,16 +16,13 @@ public:
 
 int main() {
     Solution sol;
-    /* input type + inputs needed */
     int tests[] = {
 
     };
 
-    // Use utils if complex output
     for (auto test : tests) {
         cout << sol.taskScheduler(test) << endl;
     }
 
     return 0;
 }
-
